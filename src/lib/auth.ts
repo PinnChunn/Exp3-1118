@@ -5,6 +5,7 @@ import { createUserProfile, getUserProfile } from './users';
 const AUTHORIZED_DOMAINS = [
   'github-ifz6r7.bolt.new',
   'stackblitz.io',
+  'stackblitz.com',
   'bolt.new',
   'exp32024.firebaseapp.com',
   'exp32024.web.app',
@@ -12,9 +13,11 @@ const AUTHORIZED_DOMAINS = [
   'localhost:5173',
   'localhost:3000',
   'githubifz6r7-ipmo-kr6v54ci--5173--d3acb9e1.local-credentialless.webcontainer.io',
-  'stackblitz.com',
   'webcontainer.io',
-  'local-credentialless.webcontainer.io'
+  'local-credentialless.webcontainer.io',
+  // 添加新的域名
+  'exp31118-jb3c--5173--d3acb9e1.local-credentialless.webcontainer.io',
+  'github.com'
 ];
 
 const isDomainAuthorized = (domain: string) => {
